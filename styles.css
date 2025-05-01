@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.barra_lateral {
+    position: fixed;
+    width: 7vw;
+    height: 100vh;
+    background-color: #045B5C;
+}
+
+.contenido_principal {
+    margin-left: 7vw;
+    width: 93vw;
+    height: 100vh;
+    background-color: #EDF9F2;
+}
