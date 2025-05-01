@@ -1,8 +1,4 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
 
 .barra_lateral {
     position: absolute;
@@ -12,6 +8,7 @@
 }
 
 .contenido_principal {
+    position: absolute;
     margin-left: 7vw;
     width: 93vw;
     height: 100vh;
