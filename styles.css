@@ -5,10 +5,10 @@
 }
 
 .barra_lateral {
-    position: fixed;
+    position: absolute;
     width: 7vw;
     height: 100vh;
-    background-color: #045B5C;
+    background-color: #0d504c;
 }
 
 .contenido_principal {
@@ -16,4 +16,17 @@
     width: 93vw;
     height: 100vh;
     background-color: #EDF9F2;
+}
+
+.iconos {
+    margin: 3.5vh 1.75vw; 
+    margin-bottom: 2vh;
+    width: 3vw;
+    height: auto;
+    fill: #27AE80;
+}
+
+.barra_lateral a:first-child img{
+    margin-bottom: 40vh;
+    width: 3.5vw;
 }
