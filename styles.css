@@ -1,18 +1,18 @@
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
 
 .barra_lateral {
     position: absolute;
     width: 7vw;
     height: 100vh;
     background-color: #0d504c;
-}
-
-.contenido_principal {
-    position: absolute;
-    margin-left: 7vw;
-    width: 93vw;
-    height: 100vh;
-    background-color: #EDF9F2;
 }
 
 i {
@@ -28,4 +28,37 @@ i {
 
 div:first-child{
     margin-bottom: 50vh;
+}
+
+.contenido_principal {
+    position: absolute;
+    margin-left: 7vw;
+    width: 93vw;
+    height: 100vh;
+    background-color: #f1fff8;
+}
+
+nav ul, nav a, nav li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
+.contenido_principal a {
+    color: black;
+    font-weight: 500;
+    font-size: 2vh;
+    margin: 5vh 4.2vw;
+}
+
+nav ul li:last-child a{
+    color: #27AE80;
+    font-weight: 700;
+    font-size: 2.8vh;
+}
+
+ul a i {
+    position: absolute;
+    top: 3.5vh;
+    left: 66vw;
 }
