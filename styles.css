@@ -21,13 +21,12 @@ i {
 }
 
 .barra_lateral > div {
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+    margin: 4vh 0;
     margin-left: 2vw;
 }
 
 div:first-child{
-    margin-bottom: 50vh;
+    margin-bottom: 46vh;
 }
 
 .contenido_principal {
@@ -48,7 +47,8 @@ nav ul, nav a, nav li {
     color: black;
     font-weight: 500;
     font-size: 2vh;
-    margin: 5vh 4.2vw;
+    margin: 6vh 4.2vw;
+    margin-right: 5vw;
 }
 
 nav ul li:last-child a{
@@ -58,7 +58,80 @@ nav ul li:last-child a{
 }
 
 ul a i {
+    font-size: 4.2vh;
     position: absolute;
-    top: 3.5vh;
-    left: 66vw;
+    top: 5vh;
+    left: 70vw;
+}
+
+.banner-formulario {
+    margin-left: 4.2vw;
+    background-color: white;
+    width: 82vw;
+    height: 78vh;
+    box-shadow: 7px 6px 30px #d2f8d2;
+}
+
+.banner {
+    background-image: url(img/Salud-dental.png);
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+
+h1 {
+    font-size: 4.2vh;
+    color: white;
+    padding-left: 3vw;
+    padding-top: 28vh;
+}
+
+h1 ~ h1 {
+    color: #27AE80;
+    padding-top: 0;
+}
+
+p {
+    color: white;
+    margin-top: 2vh;
+    padding-left: 3vw;
+    font-size: 1.5vh;
+    line-height: 2.2vh;
+}
+
+.reserva {
+    margin-left: 3vw;
+    margin-top: 2.5vh;
+    padding: 1vh 3vw;
+    color: white;
+    font-weight: 600;
+    background-color: #27AE80;
+    border-radius: 18px;
+    border: none;
+}
+
+.leer-mas {
+    margin-left: 1vw;
+    margin-top: 2.5vh;
+    padding: 1vh 3vw;
+    background-color: transparent;
+    border: #27AE80 solid 0.3vh;
+    color: #27AE80;
+    border-radius: 18px;
+    font-weight: 600;
+}
+.reserva i {
+    position: absolute;
+    left: 15vw;
+    bottom: 21.9vh;
+    color: white;
+    font-size: 2.5vh;
+}
+
+.leer-mas i {
+    position: absolute;
+    left: 26.8vw;
+    bottom: 21.9vh;
+    color: #27AE80;
+    font-size: 2.5vh;
 }
