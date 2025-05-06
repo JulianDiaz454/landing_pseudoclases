@@ -8,16 +8,21 @@
     font-style: normal;
 }
 
+:root {
+    --verde_oscuro: #0d504c;
+    --verde_claro: #27AE80;
+}
+
 .barra_lateral {
     position: absolute;
     width: 7vw;
     height: 100vh;
-    background-color: #0d504c;
+    background-color: var(--verde_oscuro);
 }
 
 i {
     font-size: 5vh;
-    color: #27AE80;
+    color: var(--verde_claro);
 }
 
 .barra_lateral > div {
@@ -52,7 +57,7 @@ nav ul, nav a, nav li {
 }
 
 nav ul li:last-child a{
-    color: #27AE80;
+    color: var(--verde_claro);
     font-weight: 700;
     font-size: 2.8vh;
 }
@@ -73,7 +78,7 @@ ul a i {
 }
 
 .banner {
-    background-image: url(img/Salud-dental.png);
+    background-image: linear-gradient(to top, #296c67c5 0%, #16766b57 99%, #1b7063b8 100%), url(img/Salud-dental.png);
     background-size: cover;
     height: 100%;
     width: 50%;
@@ -87,7 +92,7 @@ h1 {
 }
 
 h1 ~ h1 {
-    color: #27AE80;
+    color: var(--verde_claro);
     padding-top: 0;
 }
 
@@ -105,7 +110,7 @@ p {
     padding: 1vh 3vw;
     color: white;
     font-weight: 600;
-    background-color: #27AE80;
+    background-color: var(--verde_claro);
     border-radius: 18px;
     border: none;
 }
@@ -115,8 +120,8 @@ p {
     margin-top: 2.5vh;
     padding: 1vh 3vw;
     background-color: transparent;
-    border: #27AE80 solid 0.3vh;
-    color: #27AE80;
+    border: var(--verde_claro) solid 0.3vh;
+    color: var(--verde_claro);
     border-radius: 18px;
     font-weight: 600;
 }
@@ -132,6 +137,6 @@ p {
     position: absolute;
     left: 26.8vw;
     bottom: 21.9vh;
-    color: #27AE80;
+    color: var(--verde_claro);
     font-size: 2.5vh;
 }
